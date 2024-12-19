@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Swift's asynchronous programming: not handling completion handlers on the main thread. The `fetchData` function simulates an asynchronous network request.  The solution shows how to safely update UI elements using `DispatchQueue.main.async`.  This is a crucial pattern to prevent crashes and ensure your app remains responsive.
